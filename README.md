@@ -1,4 +1,3 @@
-﻿# movie-recommender-system
 # 🎬 Movie Recommender System
 
 This is a machine learning-based movie recommender system that suggests movies to users based on content similarity. The project utilizes natural language processing, vectorization, and similarity metrics to identify and recommend similar movies.
