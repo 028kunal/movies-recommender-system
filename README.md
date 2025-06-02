@@ -25,4 +25,33 @@ This is a machine learning-based movie recommender system that suggests movies t
 | Version Control   | Git & GitHub                         |
 
 ## 📁 Project Structure
+├── app.py # Streamlit application
+├── movies.csv # Dataset
+├── similarity.pkl # Serialized similarity matrix
+├── tmdb API integration # To fetch movie posters
+├── vectorization & NLP # Text-based content similarity
+
+
+## 🚀 How It Works
+
+1. **Data Cleaning & Preprocessing**  
+   Merged and cleaned movie metadata including genres, keywords, cast, and crew.
+
+2. **Vectorization**  
+   Transformed text data into numeric vectors using `CountVectorizer`.
+
+3. **Similarity Calculation**  
+   Used cosine similarity to find the most similar movies based on vector distance.
+
+4. **Frontend with Streamlit**  
+   Created a responsive UI that lets users select a movie and get recommendations with posters.
+
+5. **API Integration**  
+   Movie posters are fetched using TMDb API.
+
+## 🖼 Sample UI
+
+The user selects a movie title, and the app displays 5 similar movie titles along with their posters.
+
+
 
